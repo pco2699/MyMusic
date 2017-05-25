@@ -23,6 +23,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_pattern" translatesAutoresizingMaskIntoConstraints="NO" id="pPR-uf-CMj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="tintColor" red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb2-7x-JPi">
                                 <rect key="frame" x="52" y="213" width="150" height="150"/>

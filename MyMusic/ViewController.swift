@@ -34,16 +34,12 @@ class ViewController: UIViewController {
   
   @IBAction func guitar(_ sender: Any) {
     soundPlayer(&guitarPlayer, path: guitarPath, count: 0)
-    
   }
   @IBAction func cymbal(_ sender: Any) {
     soundPlayer(&cymbalPlayer, path: cymbalPath, count: 0)
-
   }
-  
   @IBAction func play(_ sender: Any) {
     soundPlayer(&backmusicPlayer, path: backmusicPath, count: -1)
-    
   }
   @IBAction func stop(_ sender: Any) {
     backmusicPlayer.stop()
